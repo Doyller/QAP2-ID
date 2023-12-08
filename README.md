@@ -1,3 +1,4 @@
+
 Install Docker https://docs.docker.com/engine/install/ 
 Install MySQL Server 
 Create a server named: qap2sem4-ID
