@@ -1,8 +1,9 @@
 version: '3'
 services:
-  my-rest-api-example:
-    image: qap2id
+  my-java-app:
+    image: eclipse-temurin:17-jdk-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 8080:8080
-    environment:
-      - spring.datasource.url=jdbc:mysql://host.docker.internal:3306
+      - "8080:8080"
